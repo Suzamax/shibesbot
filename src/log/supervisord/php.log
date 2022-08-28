@@ -1,0 +1,66 @@
+2022-08-28 20:19:20,479 INFO Set uid to user 0 succeeded
+2022-08-28 20:19:20,482 INFO RPC interface 'supervisor' initialized
+2022-08-28 20:19:20,483 INFO supervisord started with pid 1
+2022-08-28 20:19:20,491 INFO Set uid to user 0 succeeded
+2022-08-28 20:19:20,494 INFO RPC interface 'supervisor' initialized
+2022-08-28 20:19:20,494 INFO supervisord started with pid 1
+2022-08-28 20:19:21,485 INFO spawned: 'php' with pid 7
+2022-08-28 20:19:21,496 INFO spawnerr: can't find command 'php-fpm81'
+2022-08-28 20:19:22,498 INFO spawnerr: can't find command 'php-fpm81'
+2022-08-28 20:19:22,512 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-28 20:19:24,500 INFO spawnerr: can't find command 'php-fpm81'
+2022-08-28 20:19:27,504 INFO spawnerr: can't find command 'php-fpm81'
+2022-08-28 20:19:27,504 INFO gave up: php entered FATAL state, too many start retries too quickly
+2022-08-28 20:19:43,523 WARN received SIGQUIT indicating exit request
+2022-08-28 20:19:43,536 WARN received SIGTERM indicating exit request
+2022-08-28 20:19:43,536 INFO waiting for php to die
+2022-08-28 20:19:43,543 INFO stopped: php (exit status 0)
+2022-08-28 20:20:21,881 INFO Set uid to user 0 succeeded
+2022-08-28 20:20:21,884 INFO RPC interface 'supervisor' initialized
+2022-08-28 20:20:21,884 INFO supervisord started with pid 1
+2022-08-28 20:20:22,887 INFO spawned: 'php' with pid 7
+2022-08-28 20:20:23,912 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-28 20:21:25,983 WARN received SIGTERM indicating exit request
+2022-08-28 20:21:25,983 INFO waiting for php to die
+2022-08-28 20:21:25,990 INFO stopped: php (exit status 0)
+2022-08-28 20:21:44,927 INFO Set uid to user 0 succeeded
+2022-08-28 20:21:44,930 INFO RPC interface 'supervisor' initialized
+2022-08-28 20:21:44,931 INFO supervisord started with pid 1
+2022-08-28 20:21:45,932 INFO spawnerr: can't find command 'php81-fpm'
+2022-08-28 20:21:46,934 INFO spawnerr: can't find command 'php81-fpm'
+2022-08-28 20:21:48,937 INFO spawnerr: can't find command 'php81-fpm'
+2022-08-28 20:21:51,941 INFO spawnerr: can't find command 'php81-fpm'
+2022-08-28 20:21:51,941 INFO gave up: php entered FATAL state, too many start retries too quickly
+2022-08-28 20:22:34,989 WARN received SIGTERM indicating exit request
+2022-08-28 20:22:56,800 INFO Set uid to user 0 succeeded
+2022-08-28 20:22:56,802 INFO RPC interface 'supervisor' initialized
+2022-08-28 20:22:56,803 INFO supervisord started with pid 1
+2022-08-28 20:22:57,805 INFO spawned: 'php' with pid 7
+2022-08-28 20:22:58,829 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-28 20:24:15,916 WARN received SIGTERM indicating exit request
+2022-08-28 20:24:15,917 INFO waiting for php to die
+2022-08-28 20:24:15,925 INFO stopped: php (exit status 0)
+2022-08-28 20:24:32,241 INFO Set uid to user 0 succeeded
+2022-08-28 20:24:32,244 INFO RPC interface 'supervisor' initialized
+2022-08-28 20:24:32,244 INFO supervisord started with pid 1
+2022-08-28 20:24:33,247 INFO spawned: 'php' with pid 7
+2022-08-28 20:24:34,272 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-28 20:25:17,321 WARN received SIGTERM indicating exit request
+2022-08-28 20:25:17,321 INFO waiting for php to die
+2022-08-28 20:25:17,328 INFO stopped: php (exit status 0)
+2022-08-28 20:25:33,290 INFO Set uid to user 0 succeeded
+2022-08-28 20:25:33,293 INFO RPC interface 'supervisor' initialized
+2022-08-28 20:25:33,294 INFO supervisord started with pid 1
+2022-08-28 20:25:34,295 INFO spawned: 'php' with pid 7
+2022-08-28 20:25:35,319 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-28 20:26:48,118 WARN received SIGTERM indicating exit request
+2022-08-28 20:26:48,118 INFO waiting for php to die
+2022-08-28 20:26:48,126 INFO stopped: php (exit status 0)
+2022-08-28 20:27:12,612 INFO Set uid to user 0 succeeded
+2022-08-28 20:27:12,615 INFO RPC interface 'supervisor' initialized
+2022-08-28 20:27:12,615 INFO supervisord started with pid 1
+2022-08-28 20:27:13,618 INFO spawned: 'php' with pid 7
+2022-08-28 20:27:15,054 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-28 20:38:03,657 WARN received SIGTERM indicating exit request
+2022-08-28 20:38:03,657 INFO waiting for php to die
+2022-08-28 20:38:03,664 INFO stopped: php (exit status 0)

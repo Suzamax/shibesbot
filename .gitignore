@@ -1,0 +1,5 @@
+composer.lock
+db/
+vendor/
+src/app/log/
+

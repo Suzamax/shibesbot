@@ -1,0 +1,9 @@
+{
+  "require-dev": {
+    "phalcon/ide-stubs": "^4.1"
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.4",
+    "symfony/ldap": "^6.1"
+  }
+}
