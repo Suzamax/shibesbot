@@ -4,8 +4,8 @@ use Phalcon\Di\FactoryDefault;
 use Phalcon\Autoload\Loader;
 use Phalcon\Mvc\Application;
 use Phalcon\Mvc\Dispatcher;
+use Phalcon\Mvc\Url;
 use Phalcon\Mvc\View;
-use Phalcon\Url;
 
 error_reporting(E_ALL);
 
