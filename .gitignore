@@ -1,5 +1,7 @@
 composer.lock
-db/
+/db/
 vendor/
-src/app/log/
+src/log/
 
+src/log/supervisord/nginx.log
+src/log/supervisord/php.log
