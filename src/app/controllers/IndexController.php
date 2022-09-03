@@ -3,11 +3,15 @@
 namespace App\Controllers;
 
 use Phalcon\Mvc\Controller;
+use Phalcon\Mvc\View;
 
+/**\
+ * @property View $view
+ */
 class IndexController extends Controller
 {
     public function indexAction()
     {
-        return "<h1>Shibes</h1>";
+        $this->view->setVar('name', "SHIBES");
     }
 }

@@ -6,6 +6,8 @@ use Phalcon\Mvc\Application;
 use Phalcon\Mvc\Dispatcher;
 use Phalcon\Mvc\Url;
 use Phalcon\Mvc\View;
+use Phalcon\Mvc\View\Engine\Volt;
+use Phalcon\Mvc\ViewBaseInterface;
 
 error_reporting(E_ALL);
 
@@ -24,9 +26,27 @@ $loader->setNamespaces([
 
 $loader->register();
 
+$container->setShared(
+    'voltSvc',
+    function (ViewBaseInterface $view) use ($container) {
+        $volt = new Volt($view, $container);
+        $volt->setOptions([
+            'always' => true,
+            'extension' => '.php',
+            'separator' => '_',
+            'stat' => true,
+            'path' => APP_PATH . '/cache/',
+        ]);
+        return $volt;
+    }
+);
+
 $container->set('view', function () {
     $view = new View();
     $view->setViewsDir(APP_PATH . "/views/");
+    $view->registerEngines([
+        '.volt' => 'voltSvc'
+    ]);
     return $view;
 });
 
